@@ -1,11 +1,11 @@
 title: Australian Bioimage Analysts' Society TEST SITE
-#email: "-"
+email: "-"
 description: >
   The Australian Bioimage Analysts' Society is dedicated to supporting and connecting bioimage analysts across Australia.
 baseurl: ""
-url: "https://DRLACHIE.github.io"
+url: "https://drlachie.github.io"
 
-#theme: minima
+
 
 plugins:
   - jekyll-feed
