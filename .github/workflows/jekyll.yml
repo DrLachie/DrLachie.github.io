@@ -23,6 +23,9 @@ jobs:
         run: |
           gem install bundler
           bundle install
+          
+      - name: npm build
+        run: npm install && npm run build
 
       - name: Build site
         run: bundle exec jekyll build --trace
