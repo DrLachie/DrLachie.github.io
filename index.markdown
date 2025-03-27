@@ -61,22 +61,22 @@ We are a community of researchers, developers, and image analysts dedicated to a
 <div class="columns">
 
   <div class="column-left" markdown="1">
-
-  <h3> Parents and Affiliated Societies </h3>
-  <div style="display: flex; flex-wrap: wrap; gap: 2em; align-items: left; justify-content: left; margin-top: 1em;">
-  <a href="https://microscopy.org.au/lma/" target="_blank" title="Light Microscopy Australia">
-    <img src="/assets/images/lma_logo.jpg" alt="LMA" style="height: 60px;">LMA - Our parent society<BR>
-  </a><BR>
-  <a href="https://microscopy.org.au/" target="_blank" title="AMMS">
-    <img src="/assets/images/amms_logo.svg" alt="AMMS" style="height: 60px;">
-    AMMS - Our parent society's parent society<BR>
-  </a><BR>
-  <a href="https://www.globias.org/" target="_blank" title="GloBIAS">
-    <img src="/assets/images/globias_logo.png" alt="GloBIAS" style="height: 100px;">
-    GloBIAS - Global BioImage Analysts' Society
-  </a>
-</div>
+    <div style="display: flex; flex-direction: column; gap: 1.5em; margin-top: 1em;">
+      <a href="https://microscopy.org.au/lma/" target="_blank" title="Light Microscopy Australia" style="display: flex; align-items: center; text-decoration: none; gap: 1em;">
+        <img src="/assets/images/lma_logo.jpg" alt="LMA" style="height: 60px;">
+        <div style="font-size: 1rem; color: inherit;">LMA – Our parent society</div>
+      </a>
+      <a href="https://microscopy.org.au/" target="_blank" title="AMMS" style="display: flex; align-items: center; text-decoration: none; gap: 1em;">
+        <img src="/assets/images/amms_logo.svg" alt="AMMS" style="height: 60px;">
+        <div style="font-size: 1rem; color: inherit;">AMMS – Our parent society's parent society</div>
+      </a>
+      <a href="https://www.globias.org/" target="_blank" title="GloBIAS" style="display: flex; align-items: center; text-decoration: none; gap: 1em;">
+        <img src="/assets/images/globias_logo.png" alt="GloBIAS" style="height: 80px;">
+        <div style="font-size: 1rem; color: inherit;">GloBIAS – Global BioImage Analysts' Society</div>
+      </a>
+    </div>
   </div>
+  
 
   <div class="column-right">
     <a href="https://www.globias.org/activities/annual-workshop-kobe-2025" target="_blank">
