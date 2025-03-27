@@ -137,8 +137,7 @@ a {
 /**
  * Blockquotes
  */
-$brand-color: #3f748c;
-$border-color-01: #000083;
+
 blockquote {
   color: $brand-color;
   border-left: 4px solid $border-color-01;
@@ -160,7 +159,7 @@ blockquote {
 /**
  * Code formatting
  */
-$code-background-color: #999999;
+
 pre,
 code {
   font-family: $code-font-family;
