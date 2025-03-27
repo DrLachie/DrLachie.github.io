@@ -60,7 +60,7 @@ We are a community of researchers, developers, and image analysts dedicated to a
 
 <div class="columns">
 
-  <div class="column-left" markdown="1">
+  <div class="column-left">
     <div style="display: flex; flex-direction: column; gap: 1.5em; margin-top: 1em;">
       <a href="https://microscopy.org.au/lma/" target="_blank" title="Light Microscopy Australia" style="display: flex; align-items: center; text-decoration: none; gap: 1em;">
         <img src="/assets/images/lma_logo.jpg" alt="LMA" style="height: 60px;">
