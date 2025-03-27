@@ -26,6 +26,17 @@
   font-weight: bold;
 }
 
-body {
-  border: 5px solid limegreen !important;
+.site-nav a {
+  color: #3f748c;
+  text-decoration: none;
+}
+
+.site-nav a:visited {
+  color: #3f748c; /* same as default to prevent purple */
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #00befd;
+  text-decoration: underline;
 }
