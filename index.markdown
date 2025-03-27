@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6,
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 
 <!-- Logo -->
-![Australian Bioimage Analysts' Society](assets/images/banner_logo.png){: width="640" }
+![Australian Bioimage Analysts' Society](assets/images/banner_logo_T.png){: width="640" }
 
 <h2>Welcome to the Australian Bioimage Analysts' Society.</h2>
 
