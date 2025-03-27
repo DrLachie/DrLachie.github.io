@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6,
 
 <!-- Logo -->
 ![Australian Bioimage Analysts' Society](assets/images/banner_logo.png){: width="640" }
-
+<body>
 <h2>Welcome to the Australian Bioimage Analysts' Society.</h2>
 
 <div class="columns">
@@ -80,3 +80,4 @@ h1, h2, h3, h4, h5, h6,
   </div>
 
 </div>
+</body>
