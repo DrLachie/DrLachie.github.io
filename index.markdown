@@ -55,24 +55,21 @@ h1, h2, h3, h4, h5, h6,
 
 <h2>Welcome to the Australian Bioimage Analysts' Society.</h2>
 
+We are a community of researchers, developers, and image analysts dedicated to advancing the field of bioimage analysis in Australia. Our mission is to foster collaboration, share knowledge, and support the growth of image analysis expertise across life sciences and biomedical research.
+
+
 <div class="columns">
 
   <div class="column-left" markdown="1">
 
-  <h3> Navigation </h3>
-  - [About](/about/)
-  - [Events](/events/)
-  - [Resources](/resources/)
-  - [Contact](/contact/)
-
   <h3> Parents and Affiliated Societies </h3>
   <div style="display: flex; flex-wrap: wrap; gap: 2em; align-items: center; justify-content: center; margin-top: 1em;">
-  <a href="https://microscopy.org.au/lma/" target="_blank" title="Light Microscopy Australia">
+  <a href="https://microscopy.org.au/lma/" target="_blank" title="Light Microscopy Australia"><BR>
     <img src="/assets/images/lma_logo.jpg" alt="LMA" style="height: 60px;">
-  </a>
+  </a><BR>
   <a href="https://microscopy.org.au/" target="_blank" title="AMMS">
     <img src="/assets/images/amms_logo.svg" alt="AMMS" style="height: 60px;">
-  </a>
+  </a><BR>
   <a href="https://www.globias.org/" target="_blank" title="GloBIAS">
     <img src="/assets/images/globias_logo.png" alt="GloBIAS" style="height: 60px;">
   </a>
