@@ -76,6 +76,7 @@ We are a community of researchers, developers, and image analysts dedicated to a
       </a>
     </div>
   </div>
+  </div>
   
 
   <div class="column-right">
