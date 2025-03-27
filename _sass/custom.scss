@@ -40,3 +40,8 @@
   color: #00befd;
   text-decoration: underline;
 }
+
+a img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}

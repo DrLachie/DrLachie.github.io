@@ -66,10 +66,17 @@ h1, h2, h3, h4, h5, h6,
   - [Contact](/contact/)
 
   <h3> Parents and Affiliated Societies </h3>
-  - Light Microscopy Australia [LMA](https://microscopy.org.au/lma/) (Our parent society)  
-  - The Australian Microscopy & Microanalysis Society [AMMS](https://microscopy.org.au/) (Our parent society's parent society)  
-  - Global Bioimage Analysts' Society [GloBIAS](https://www.globias.org/)
-
+  <div style="display: flex; flex-wrap: wrap; gap: 2em; align-items: center; justify-content: center; margin-top: 1em;">
+  <a href="https://microscopy.org.au/lma/" target="_blank" title="Light Microscopy Australia">
+    <img src="/assets/images/lma_logo.jpg" alt="LMA" style="height: 60px;">
+  </a>
+  <a href="https://microscopy.org.au/" target="_blank" title="AMMS">
+    <img src="/assets/images/amms_logo.svg" alt="AMMS" style="height: 60px;">
+  </a>
+  <a href="https://www.globias.org/" target="_blank" title="GloBIAS">
+    <img src="/assets/images/globias_logo.png" alt="GloBIAS" style="height: 60px;">
+  </a>
+</div>
   </div>
 
   <div class="column-right">
