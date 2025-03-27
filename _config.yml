@@ -28,7 +28,7 @@ nav:
 # Disable posts (remove blog-related settings)
 collections:
   posts:
-    output: false
+    output: True
 
 # Pages
 pages:
