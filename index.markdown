@@ -63,15 +63,17 @@ We are a community of researchers, developers, and image analysts dedicated to a
   <div class="column-left" markdown="1">
 
   <h3> Parents and Affiliated Societies </h3>
-  <div style="display: flex; flex-wrap: wrap; gap: 2em; align-items: left; justify-content: center; margin-top: 1em;">
-  <a href="https://microscopy.org.au/lma/" target="_blank" title="Light Microscopy Australia"><BR>
-    <img src="/assets/images/lma_logo.jpg" alt="LMA" style="height: 60px;">
+  <div style="display: flex; flex-wrap: wrap; gap: 2em; align-items: left; justify-content: left; margin-top: 1em;">
+  <a href="https://microscopy.org.au/lma/" target="_blank" title="Light Microscopy Australia">
+    <img src="/assets/images/lma_logo.jpg" alt="LMA" style="height: 60px;">LMA - Our parent society<BR>
   </a><BR>
   <a href="https://microscopy.org.au/" target="_blank" title="AMMS">
     <img src="/assets/images/amms_logo.svg" alt="AMMS" style="height: 60px;">
+    AMMS - Our parent society's parent society<BR>
   </a><BR>
   <a href="https://www.globias.org/" target="_blank" title="GloBIAS">
     <img src="/assets/images/globias_logo.png" alt="GloBIAS" style="height: 100px;">
+    GloBIAS - Global BioImage Analysts' Society
   </a>
 </div>
   </div>
