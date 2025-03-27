@@ -75,9 +75,7 @@ We are a community of researchers, developers, and image analysts dedicated to a
         <div style="font-size: 1rem; color: inherit;">GloBIAS – Global BioImage Analysts' Society</div>
       </a>
     </div>
-  </div>
-  </div>
-  
+  </div> 
 
   <div class="column-right">
     <a href="https://www.globias.org/activities/annual-workshop-kobe-2025" target="_blank">
@@ -87,3 +85,4 @@ We are a community of researchers, developers, and image analysts dedicated to a
   </div>
 
 </div>
+
