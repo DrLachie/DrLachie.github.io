@@ -20,10 +20,10 @@ nav:
     url: "/events/"
   - title: "Resources"
     url: "/resources/"
-  - title: "Community"
-    url: "/community/"
   - title: "Contact"
     url: "/contact/"
+  - title: "Blog"
+    url: /blog/
 
 # Disable posts (remove blog-related settings)
 collections:
@@ -40,6 +40,9 @@ pages:
     file: "resources.md"
   - title: "Contact"
     file: "contact.md"
+  - title: "Blog"
+    file: "blog.md"
+
 
 sass:
   style: compressed
