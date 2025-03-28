@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to the blog"
-date:   2025-03-29
+date:   2025-03-28
 categories: [news, updates]
 ---
 
