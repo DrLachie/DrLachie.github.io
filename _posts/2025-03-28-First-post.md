@@ -19,9 +19,8 @@ In a fit of ... what's the opposite of creatitvity... I created this monstrosity
 
 My thoughts were: 
 
-
-    - change the colours to "Aussie it up a bit" 
-    - highlight the bottom right, where we usually appear on a map of the world. 
+- change the colours to "Aussie it up a bit" 
+- highlight the bottom right, where we usually appear on a map of the world. 
 
 
 After all this, I decided it was best to actually ask permission from the GloBIAS organising committee and, while flattered, they were somewhat concerned about protecting their brand now that they're a legal entity. This was entirely justified so back to the drawing board for me.
