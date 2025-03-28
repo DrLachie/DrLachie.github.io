@@ -11,7 +11,7 @@ bsky: "https://bsky.app/profile/drlachie.bsky.social"
 
 When we first decided we needed a website, the first question was obviously: what should our logo be. 
 
-At first I wanted something quickly, and took the obvious route of paying homage (shamelessly plaigerising) the GloBIAS Logo:
+At first I wanted something quickly, and took the obvious route of paying homage (shamelessly plagiarising) the GloBIAS Logo:
 
 ![Globias Logo](/assets/images/globias_logo.png){: height="200" }
 
@@ -33,7 +33,7 @@ Next I looked at the Neubias logo:
 
 Well I liked the look of the network there, so that's where I started tinkering. 
 
-First - I found a csv file with the latitude and longitude of the major cities in Australia, including their populations. Then wrote a script to put a propotionally population sized dot on each and connect them with lines.
+I liked the idea of the ![napari logo](https://napari.org/dev/naps/5-new-logo.html) being completely defined in python, so thought I could follow their lead. First - I found a csv file with the latitude and longitude of the major cities in Australia, including their populations. Then wrote a script to put a propotionally population sized dot on each and connect them with lines.
 
 ![Australia with striaght lines connecting population centers](/assets/images/straight_lines.png){: height="300" }
 
@@ -50,3 +50,5 @@ That was it. Thought to make it more abstract I'd remove the coastline, had a de
 ![Ausbias Final Logo](/assets/images/banner_logo.png){: height="300" }
 
 If you want to generate the logo yourself, all the code is in [our github](https://github.com/ausbias/ausbias.github.io/tree/main/logo_stuff)! 
+
+Fun trivia: the logo initially included Geelong, but not Canberra. It was pointed out that while we do have members who work and reside in Geelong, missing our nation's capital was perhaps sub-optimal. 
