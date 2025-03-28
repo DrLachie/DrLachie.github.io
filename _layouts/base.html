@@ -1,22 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% include head.html %}
-  </head>
-  <body>
 
-    <header class="site-header" role="banner">
-      <div class="wrapper">
-        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-        <nav class="site-nav">
-          {% include nav.html %}
-        </nav>
-      </div>
-    </header>
-
+  {%- include head.html -%}
 
   <body>
 
