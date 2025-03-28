@@ -20,7 +20,6 @@ In a fit of ... what's the opposite of creatitvity... I created this monstrosity
 My thoughts were: 
 
     - change the colours to "Aussie it up a bit" 
-
     - highlight the bottom right, where we usually appear on a map of the world. 
 
 
