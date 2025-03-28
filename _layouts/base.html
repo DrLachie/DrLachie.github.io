@@ -2,6 +2,14 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {%- include head.html -%}
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav">
+        {% include nav.html %}
+      </nav>
+    </div>
+  </header>
 
   <body>
 
