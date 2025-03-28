@@ -41,4 +41,18 @@ layout: base
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  {%- if page.author -%}
+  <footer class="post-footer" style="margin-top: 2em; border-top: 1px solid #ddd; padding-top: 1em;">
+    <p>Written by {{ page.author.name }}</p>
+    <p>
+      {%- if page.author.bsky -%}
+        <a href="{{ page.author.bsky }}" target="_blank">Bluesky</a>
+      {%- endif -%}
+      {%- if page.author.github -%}
+        • <a href="{{ page.author.github }}" target="_blank">GitHub</a>
+      {%- endif -%}
+    </p>
+  </footer>
+{%- endif -%}
 </article>

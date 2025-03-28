@@ -3,6 +3,9 @@ layout: post
 title:  "The AusBIAS Logo"
 date:   2025-03-28
 categories: [news, updates]
+author:
+  name: Lachlan Whitehead
+  bsky: "https://bsky.app/profile/drlachie.bsky.social"
 ---
 
 ### What's a society without a logo? 
@@ -47,4 +50,4 @@ That was it. Thought to make it more abstract I'd remove the coastline, had a de
 
 ![Ausbias Final Logo](/assets/images/banner_logo.png){: height="300" }
 
-If you want to generate the logo yourself, all the code is in [our github](https://github.com/ausbias)! 
+If you want to generate the logo yourself, all the code is in [our github](https://github.com/ausbias/ausbias.github.io/tree/main/logo_stuff)! 
