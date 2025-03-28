@@ -25,10 +25,12 @@ nav:
   - title: "Blog"
     url: "/blog/"
 
+permalink: /blog/:year/:month/:day/:title/
+
 # Disable posts (remove blog-related settings)
-collections:
-  posts:
-    output: True
+#collections:
+#  posts:
+#    output: True
 
 # Pages
 pages:
