@@ -23,7 +23,7 @@ nav:
   - title: "Contact"
     url: "/contact/"
   - title: "Blog"
-    url: /blog/
+    url: "/blog/"
 
 # Disable posts (remove blog-related settings)
 collections:
