@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://drlachie.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://drlachie.github.io/" rel="alternate" type="text/html" /><updated>2025-03-28T05:27:00+00:00</updated><id>https://drlachie.github.io/feed.xml</id><title type="html">Australian Bioimage Analysts’ Society TEST SITE</title><subtitle>The Australian Bioimage Analysts&apos; Society is dedicated to supporting and connecting bioimage analysts across Australia.
-</subtitle><entry><title type="html">The AusBIAS Logo</title><link href="https://drlachie.github.io/blog/2025/03/28/First-post/" rel="alternate" type="text/html" title="The AusBIAS Logo" /><published>2025-03-28T00:00:00+00:00</published><updated>2025-03-28T00:00:00+00:00</updated><id>https://drlachie.github.io/blog/2025/03/28/First-post</id><content type="html" xml:base="https://drlachie.github.io/blog/2025/03/28/First-post/"><![CDATA[<h1 id="whats-a-society-without-a-logo">What’s a society without a logo?</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://drlachie.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://drlachie.github.io/" rel="alternate" type="text/html" /><updated>2025-03-28T07:43:01+00:00</updated><id>https://drlachie.github.io/feed.xml</id><title type="html">Australian Bioimage Analysts’ Society TEST SITE</title><subtitle>The Australian Bioimage Analysts&apos; Society is dedicated to supporting and connecting bioimage analysts across Australia.
+</subtitle><entry><title type="html">The AusBIAS Logo</title><link href="https://drlachie.github.io/blog/2025/03/28/First-post/" rel="alternate" type="text/html" title="The AusBIAS Logo" /><published>2025-03-28T00:00:00+00:00</published><updated>2025-03-28T00:00:00+00:00</updated><id>https://drlachie.github.io/blog/2025/03/28/First-post</id><content type="html" xml:base="https://drlachie.github.io/blog/2025/03/28/First-post/"><![CDATA[<h3 id="whats-a-society-without-a-logo">What’s a society without a logo?</h3>
 
 <p>When we first decided we needed a website, the first question was obviously: what should our logo be.</p>
 
@@ -8,10 +8,14 @@
 <p><img src="/assets/images/globias_logo.png" alt="Globias Logo" height="200" /></p>
 
 <p>In a fit of … what’s the opposite of creatitvity… I created this monstrosity: 
-<img src="/assets/images/old_logo_DoNotUse.png" alt="Original Ausbias Logo" height="150" />
-My thoughts were: 
-    - change the colours to “Aussie it up a bit” 
-    - highlight the bottom right, where we usually appear on a map of the world.</p>
+<img src="/assets/images/old_logo_DoNotUse.png" alt="Original Ausbias Logo" height="150" /></p>
+
+<p>My thoughts were:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- change the colours to "Aussie it up a bit" 
+
+- highlight the bottom right, where we usually appear on a map of the world. 
+</code></pre></div></div>
 
 <p>After all this, I decided it was best to actually ask permission from the GloBIAS organising committee and, while flattered, they were somewhat concerned about protecting their brand now that they’re a legal entity. This was entirely justified so back to the drawing board for me.</p>
 
@@ -21,11 +25,11 @@ My thoughts were:
 
 <p>Well I liked the look of the network there, so that’s where I started tinkering.</p>
 
-<p>First - I found a csv file with the latitude and longitude of the major cities in Australia, including their populations as well. Then wrote a script to put a population sized dot on each and connect them with lines.</p>
+<p>First - I found a csv file with the latitude and longitude of the major cities in Australia, including their populations. Then wrote a script to put a propotionally population sized dot on each and connect them with lines.</p>
 
 <p><img src="/assets/images/straight_lines.png" alt="Australia with striaght lines connecting population centers" height="300" /></p>
 
-<p>That was cool and all, but as I had scaled the Cities to the population, why not do the same with the lines?</p>
+<p>That was cool and all, but as I had scaled the cities to the population, why not do the same with the lines?</p>
 
 <p><img src="/assets/images/scale_lines.png" alt="Getting closer" height="300" /></p>
 
