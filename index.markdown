@@ -57,6 +57,19 @@ h1, h2, h3, h4, h5, h6,
 
 We are a community of researchers, developers, and image analysts dedicated to advancing the field of bioimage analysis in Australia. Our mission is to foster collaboration, share knowledge, and support the growth of image analysis expertise across life sciences and biomedical research.
 
+## Latest News
+
+{% assign latest_post = site.posts.first %}
+{% if latest_post %}
+  <article style="border: 1px solid #ccc; padding: 1em; border-radius: 8px; margin-top: 1em;">
+    <h4><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h4>
+    <small>{{ latest_post.date | date: "%B %d, %Y" }}</small>
+    <p>{{ latest_post.excerpt | strip_html | truncate: 160 }}</p>
+    <a href="{{ latest_post.url | relative_url }}">Read more →</a>
+  </article>
+{% else %}
+  <p>No news yet. Check back soon!</p>
+{% endif %}
 
 <div class="columns">
 
