@@ -5,8 +5,6 @@ description: >
 baseurl: ""
 url: "https://drlachie.github.io"
 
-
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

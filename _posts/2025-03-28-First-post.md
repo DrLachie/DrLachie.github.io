@@ -3,9 +3,8 @@ layout: post
 title:  "The AusBIAS Logo"
 date:   2025-03-28
 categories: [news, updates]
-author:
-  name: Lachlan Whitehead
-  bsky: "https://bsky.app/profile/drlachie.bsky.social"
+author: Lachlan Whitehead
+bsky: "https://bsky.app/profile/drlachie.bsky.social"
 ---
 
 ### What's a society without a logo? 
