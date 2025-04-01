@@ -3,12 +3,14 @@
   location: "Kobe, Japan"
   url: "https://www.globias.org/activities/bioimage-analysis-conference-2025-in-kobe"
   description: "Globias Training school, hackathon, and symposium."
+  logo: "/assets/images/globias_logo.png"
 
 - title: "Taking your Image Analysis to the Next Level - APMC"
   date: "2024-02-03"
   location: "Brisbane , Australia"
   url: "https://www.apmc13-2025.org/"
   description: "Advanced image anlaysis workshop, presented by Cameron Nowell And Nicholas Condon."
+  logo: "/assets/images/apmc_logo.jpg"
 
 - title: "Intro to QuPath Workshop - LMA2024"
   date: "2024-07-01"
@@ -21,3 +23,4 @@
   location: "Melbourne, Australia"
   url: "https://groups.google.com/g/ausbias"
   description: "Our monthly meeting for April. Cameron Nowell to discuss \"various things\"."
+  logo: "/assets/images/banner_logo_T.png"
