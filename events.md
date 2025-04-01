@@ -36,8 +36,8 @@ AusBIAS organises monthly meetings, usually online, where often one member will 
 <div class="events-list">
   {% assign today = 'now' | date: '%Y-%m-%d' %}
   {% assign past_events = site.data.events | sort: 'date' | reverse %}
-  {% for event in site.data.events %}
-    {% if event.date < today %}
+  {% assign past_events_filtered = past_events | where_exp: "event", "event.date < today" %}
+  {% for event in past_events_filtered limit:3 %}
     <div class="event-item">
         <div class="event-logo">
         {% if event.logo %}
@@ -51,6 +51,5 @@ AusBIAS organises monthly meetings, usually online, where often one member will 
           <p>{{ event.description }}</p>
         </div>
       </div>
-  {% endif %}
 {% endfor %}
 </div>
