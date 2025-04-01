@@ -72,18 +72,18 @@ We are a community of researchers, developers, and image analysts dedicated to a
   <p>No news yet. Check back soon!</p>
 {% endif %}
 
-<h3>Latest Announcements </h3>
-<article style="border: 1px solid #ccc; padding: 1em; border-radius: 8px; margin-top: 1em;">
-  <div class="announcement-banner">
-    <p id="announcement-text">
-      <a href="{{ site.data.announcements[0].url }}">{{ site.data.announcements[0].message }}</a>
-    </p>
-    <div class="announcement-controls">
-      <button id="prev-announcement">◀️</button>
-      <button id="next-announcement">▶️</button>
-    </div>
+<h3 style="margin-top: 2em;">Latest Announcements </h3>
+
+<div class="announcement-banner">
+  <p id="announcement-text">
+    <a href="{{ site.data.announcements[0].url }}">{{ site.data.announcements[0].message }}</a>
+  </p>
+  <div class="announcement-controls">
+    <button id="prev-announcement">◀️</button>
+    <button id="next-announcement">▶️</button>
   </div>
-</article>
+</div>
+
 
 
 <hr class="section-divider">
@@ -121,16 +121,21 @@ We are a community of researchers, developers, and image analysts dedicated to a
   const announcementText = document.getElementById("announcement-text");
 
   function showAnnouncement() {
-    announcementText.innerHTML = `<a href="${announcements[current].url}">${announcements[current].message}</a>`;
+    announcementText.classList.add("fade-out");
+
+    setTimeout(() => {
+      announcementText.innerHTML = `<a href="${announcements[current].url}">${announcements[current].message}</a>`;
+      announcementText.classList.remove("fade-out");
+    }, 500); // match the CSS transition time
   }
 
-  // Auto-rotate every 5 sec
+  // Auto-rotate
   setInterval(() => {
     current = (current + 1) % announcements.length;
     showAnnouncement();
   }, 5000);
 
-  // Manual controls
+  // Manual buttons
   document.getElementById("prev-announcement").addEventListener("click", () => {
     current = (current - 1 + announcements.length) % announcements.length;
     showAnnouncement();
