@@ -62,11 +62,17 @@ a img:hover {
   padding-bottom: 1em;
 }
 
-.event-logo img {
-  max-height: 50px;
-  width: auto;
+.event-logo {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.event-logo img {
+  max-height: 50px;
+  max-width: 100%;
+}
 .event-info {
   flex: 1;
 }
