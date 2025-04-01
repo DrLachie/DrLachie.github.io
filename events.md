@@ -5,8 +5,9 @@ title: Events
 # Events
 
 AusBIAS organises monthly meetings, usually online, where often one member will lead discussion of a paper, method, or problem of the day. We are also involved in hosting training courses at our various institutions, and supporting local conferences.
-<hr style="margin: 2em 0;">
-<hr style="margin: 2em 0;">
+
+<hr style="margin: 2em 0; border: none; height: 4px; background: linear-gradient(to right, #0033ee, #0099cc); border-radius: 2px;">
+
 
 <h2>Upcoming Events</h2>
 
@@ -19,8 +20,8 @@ AusBIAS organises monthly meetings, usually online, where often one member will 
         <div class="event-logo">
         {% if event.logo %}
             <img src="{{ event.logo | relative_url }}" alt="{{ event.title }} logo">
-          </div>
         {% endif %}
+        </div>
         <div class="event-info">
           <strong>{{ event.title }}</strong><br>
           <small>{{ event.date | date: "%B %d, %Y" }} – {{ event.location }}</small><br>
@@ -42,9 +43,9 @@ AusBIAS organises monthly meetings, usually online, where often one member will 
     <div class="event-item">
         <div class="event-logo">
         {% if event.logo %}
-            <img src="{{ event.logo | relative_url }}" alt="{{ event.title }} logo">
-          </div>
+            <img src="{{ event.logo | relative_url }}" alt="{{ event.title }} logo">          
         {% endif %}
+        </div>
         <div class="event-info">
           <strong>{{ event.title }}</strong><br>
           <small>{{ event.date | date: "%B %d, %Y" }} – {{ event.location }}</small><br>
