@@ -22,7 +22,7 @@ AusBIAS organises monthly meetings, usually online, where often one member will 
         <div class="event-info">
           <strong>{{ event.title }}</strong><br>
           <small>{{ event.date | date: "%B %d, %Y" }} – {{ event.location }}</small><br>
-          <a href="{{ event.url }}" target="_blank">More info</a>
+          <a href="{{ event.url }}" target="_blank">Link</a>
           <p>{{ event.description }}</p>
         </div>
       </div>

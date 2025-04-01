@@ -17,10 +17,11 @@
   location: "Melbourne, Australia"
   url: "https://microscopy.org.au/lma/"
   description: "Introduction to Qupath Workshop, presented by Lachlan Whitehead and Ellie Cho."
+  logo: "/assets/imagings/lma_logo.jpg"
 
 - title: "AusBIAS Monthly Zoom Meeting"
   date: "2025-04-08"
   location: "Melbourne, Australia"
   url: "https://groups.google.com/g/ausbias"
-  description: "Our monthly meeting for April. Cameron Nowell to discuss \"various things\"."
+  description: "Our monthly meeting for April. Cameron Nowell to discuss \"various things\".\n Join the Google Group for link and details."
   logo: "/assets/images/banner_logo_T.png"
