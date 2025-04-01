@@ -76,3 +76,11 @@ a img:hover {
 .event-info {
   flex: 1;
 }
+
+hr.section-divider {
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right, #00114f, #0099cc);
+  border-radius: 2px;
+  margin: 2em 0;
+}

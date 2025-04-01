@@ -6,9 +6,6 @@ title: Events
 
 AusBIAS organises monthly meetings, usually online, where often one member will lead discussion of a paper, method, or problem of the day. We are also involved in hosting training courses at our various institutions, and supporting local conferences.
 
-<hr style="margin: 2em 0; border: none; height: 4px; background: linear-gradient(to right, #0033ee, #0099cc); border-radius: 2px;">
-
-
 <h2>Upcoming Events</h2>
 
 <div class="events-list">
@@ -33,6 +30,7 @@ AusBIAS organises monthly meetings, usually online, where often one member will 
   {% endfor %}
 </div>
 
+<hr class="section-divider">
 <h2>Past Events</h2>
 
 <div class="events-list">
