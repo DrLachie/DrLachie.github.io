@@ -123,9 +123,17 @@ We are a community of researchers, developers, and image analysts dedicated to a
     <a href="/blog/2025/03/28/First-post/">Read more →</a>
   </article>
 
+
+<h4>Latest Announcements </h4>
+<div class="announcement-banner">
+  <p id="announcement-text">
+    <a href="https://www.globias.org/">Registrations open for the GloBIAS 2025 Workshop Soon Maybe!</a>
+  </p>
+</div>
+
+
 <hr class="section-divider">
 <div class="columns">
-
   <div class="column-left">
   <h3> Parents and Affiliated Societies </h3>
     <div style="display: flex; flex-direction: column; gap: 1.5em; margin-top: 1em;">
@@ -153,7 +161,16 @@ We are a community of researchers, developers, and image analysts dedicated to a
 
 </div>
 
+<script>
+  const announcements = [{"message":"Registrations open for the GloBIAS 2025 Workshop Soon Maybe!","url":"https://www.globias.org/"},{"message":"Join our Google Group to stay updated.","url":"https://groups.google.com/g/ausbias"},{"message":"BOMP Image Analysis Cource","url":"https://bomp.or.whatever"}];
+  let current = 0;
+  const announcementText = document.getElementById("announcement-text");
 
+  setInterval(() => {
+    current = (current + 1) % announcements.length;
+    announcementText.innerHTML = `<a href="${announcements[current].url}">${announcements[current].message}</a>`;
+  }, 5000);
+</script>
       </div>
     </main>
 
