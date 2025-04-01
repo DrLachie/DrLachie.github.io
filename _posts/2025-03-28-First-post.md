@@ -45,7 +45,7 @@ I still wasn't happy so decided to curve the lines, and add a colour map:
 
 ![Almost there...](/assets/images/almost_final.png){: height="300" }
 
-That was it. Thought to make it more abstract I'd remove the coastline, had a design-minded friend help chose a font and the rest is (extremely recent) history:
+That was it. Thought to make it more abstract I'd remove the coastline, had a design-minded friend (thanks Michael) help chose a font and the rest is (extremely recent) history:
 
 ![Ausbias Final Logo](/assets/images/banner_logo.png){: height="300" }
 
