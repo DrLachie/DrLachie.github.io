@@ -46,3 +46,28 @@ a img:hover {
   transform: scale(1.05);
   transition: transform 0.2s ease;
 }
+
+.events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-top: 1em;
+}
+
+.event-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
+}
+
+.event-logo img {
+  height: 60px;
+  width: auto;
+  max-width: 100px;
+}
+
+.event-info {
+  flex: 1;
+}
