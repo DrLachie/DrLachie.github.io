@@ -71,9 +71,17 @@ We are a community of researchers, developers, and image analysts dedicated to a
 {% else %}
   <p>No news yet. Check back soon!</p>
 {% endif %}
+
+<h4>Latest Announcements </h4>
+<div class="announcement-banner">
+  <p id="announcement-text">
+    <a href="{{ site.data.announcements[0].url }}">{{ site.data.announcements[0].message }}</a>
+  </p>
+</div>
+
+
 <hr class="section-divider">
 <div class="columns">
-
   <div class="column-left">
   <h3> Parents and Affiliated Societies </h3>
     <div style="display: flex; flex-direction: column; gap: 1.5em; margin-top: 1em;">
@@ -101,3 +109,13 @@ We are a community of researchers, developers, and image analysts dedicated to a
 
 </div>
 
+<script>
+  const announcements = {{ site.data.announcements | jsonify }};
+  let current = 0;
+  const announcementText = document.getElementById("announcement-text");
+
+  setInterval(() => {
+    current = (current + 1) % announcements.length;
+    announcementText.innerHTML = `<a href="${announcements[current].url}">${announcements[current].message}</a>`;
+  }, 5000);
+</script>
