@@ -32,16 +32,24 @@ AusBIAS organises monthly meetings, usually online, where often one member will 
 
 <h2>Past Events</h2>
 
-<ul>
-{% assign today = 'now' | date: '%Y-%m-%d' %}
-{% assign past_events = site.data.events | sort: 'date' | reverse %}
-{% for event in site.data.events %}
-  {% if event.date < today %}
-    <li>
-      <strong>{{ event.title }}</strong> – {{ event.date }} – {{ event.location }}<br>
-      <a href="{{ event.url }}" target="_blank">More info</a>
-      <p>{{ event.description }}</p>
-    </li>
+<div class="events-list">
+  {% assign today = 'now' | date: '%Y-%m-%d' %}
+  {% assign past_events = site.data.events | sort: 'date' | reverse %}
+  {% for event in site.data.events %}
+    {% if event.date < today %}
+    <div class="event-item">
+        {% if event.logo %}
+          <div class="event-logo">
+            <img src="{{ event.logo | relative_url }}" alt="{{ event.title }} logo">
+          </div>
+        {% endif %}
+        <div class="event-info">
+          <strong>{{ event.title }}</strong><br>
+          <small>{{ event.date | date: "%B %d, %Y" }} – {{ event.location }}</small><br>
+          <a href="{{ event.url }}" target="_blank">More info</a>
+          <p>{{ event.description }}</p>
+        </div>
+      </div>
   {% endif %}
 {% endfor %}
-</ul>
+</div>
