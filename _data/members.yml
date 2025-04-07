@@ -8,14 +8,15 @@
   bsky: https://bsky.app/profile/drlachie.bsky.social
   interests:
    - Bioimage Analysis
-   - Community-building
-   - Scientific Visualisation
+   - Deep learning 
+   - HPC utilisation for image processing 
   specialities:
     - Fiji
     - Python 
     - HPC processing
   bio: >
     Lachlan has been a bioimage analyst at WEHI for over a decade, and now runs the Bioimage Analysis Core in the Center for Dynamic Imaging.
+    He was a founding member of AusBIAS. 
 
 - username: jane-doe
   name: Jane Doe
