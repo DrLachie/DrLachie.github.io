@@ -6,10 +6,10 @@
   scholar: https://scholar.google.com.au/citations?user=x_he-iIAAAAJ&hl=en
   website: https://www.wehi.edu.au/collaborative-centre/centre-for-dynamic-imaging/bioimage-analysis-core/
   bsky: https://bsky.app/profile/drlachie.bsky.social
-   interests:
-    - Bioimage Analysis
-    - Community-building
-    - Scientific Visualisation
+  interests:
+   - Bioimage Analysis
+   - Community-building
+   - Scientific Visualisation
   specialities:
     - Fiji
     - Python 
