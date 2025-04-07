@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign member = site.data.members | where: "username", page.name | first %}
+
+<article class="profile">
+    <h1>{{ member.name }}</h1>
+    {% if member.photo %}
+      <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" class="profile-photo">
+    {% endif %}
+  
+    <p><strong>Affiliation:</strong> {{ member.affiliation }}</p>
+    <p><strong>Role:</strong> {{ member.role }}</p>
+    {% if member.website %}
+      <p><strong>Website:</strong> <a href="{{ member.website }}">{{ member.website }}</a></p>
+    {% endif %}
+    {% if member.bsky %}
+      <p><strong>Bluesky:</strong> <a href="{{ member.bsky }}">{{ member.bsky }}</a></p>
+    {% endif %}
+    <div class="profile-bio">
+      <p>{{ member.bio }}</p>
+    </div>
+  </article>
+  
