@@ -1,5 +1,5 @@
 ---
 layout: profile
-name: Lachlan Whitehead
+name: lachlan-whitehead
 ---
 
