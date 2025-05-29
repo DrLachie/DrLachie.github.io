@@ -16,8 +16,8 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'twitter', link:    ''}
-- {icon: 'facebook', link:   ''}
+- {icon: 'bluesky', link:    ''}
+- {icon: 'globe-pointer', link:   ''}
 - {icon: 'instagram', link:  ''}
 - {icon: 'envelope', link:   ''}
 - {icon: 'rss-square', link: 'feed.xml'}
