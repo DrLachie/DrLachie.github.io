@@ -7,6 +7,20 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Welcome to the BAC!</title>
+				
+					<dc:creator>L. Whitehead</dc:creator>
+				
+				
+					<description>&lt;p&gt;We’re the BAC. We do BAC stuff.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+				<link>/welcome-to-the-bac</link>
+				<guid isPermaLink="true">/welcome-to-the-bac</guid>
+			</item>
+		
+			<item>
 				<title>Who We Are</title>
 				
 					<dc:creator>L Whitehead</dc:creator>
@@ -15,7 +29,7 @@
 					<description>&lt;h1 id=&quot;millennial&quot;&gt;Millennial&lt;/h1&gt;
 </description>
 				
-				<pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+				<pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
 				<link>/who-we-are</link>
 				<guid isPermaLink="true">/who-we-are</guid>
 			</item>
