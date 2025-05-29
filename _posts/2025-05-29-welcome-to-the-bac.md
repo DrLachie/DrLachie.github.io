@@ -15,7 +15,7 @@ Blah
 
 ## Example Content
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2016-09-09-text-formatting %})
+[Gallery]({{ site.github.url }}{% post_url 2025-05-26-gallery %})
 
 ## Questions?
 
