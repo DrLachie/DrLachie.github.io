@@ -129,6 +129,26 @@ function populateModules() {
             }
         });
     }
+
+    // Populate visual abstracts page
+    const visualAbstractsContainer = document.getElementById('visualAbstractsContainer');
+    if (visualAbstractsContainer && siteData.modules.creative) {
+        const animationsModule = siteData.modules.creative.find(m => m.id === 'animations' && m.enabled);
+        if (animationsModule) {
+            const moduleElement = createModule(animationsModule);
+            if (moduleElement) visualAbstractsContainer.appendChild(moduleElement);
+        }
+    }
+
+    // Populate photography page
+    const photographyContainer = document.getElementById('photographyContainer');
+    if (photographyContainer && siteData.modules.creative) {
+        const photographyModule = siteData.modules.creative.find(m => m.id === 'gallery-photography' && m.enabled);
+        if (photographyModule) {
+            const moduleElement = createModule(photographyModule);
+            if (moduleElement) photographyContainer.appendChild(moduleElement);
+        }
+    }
 }
 
 function createModule(module) {
