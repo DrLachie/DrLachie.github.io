@@ -248,6 +248,16 @@
             "src": "assets/images/photography/747.jpg",
             "alt": "747 Landing at Melbourne Airport",
             "caption": "747 Landing at Melbourne Airport"
+          },
+          {
+            "src": "assets/images/photography/kanazawa.jpg",
+            "alt": "Kanazawa, Japan",
+            "caption": "Oyama Shrine, Kanazawa, Japan"
+          },
+          {
+            "src": "assets/images/photography/tractor.jpg",
+            "alt": "Shirakawa-go, Japan",
+            "caption": "Shirakawa-go, Japan"
           }
         ]
       },
