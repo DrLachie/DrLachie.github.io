@@ -1,0 +1,313 @@
+{
+  "site": {
+    "title": "Lachlan Whitehead",
+    "description": "Bioimage Analyst, Physicist, Creative"
+  },
+  "hero": {
+    "name": "Lachlan Whitehead",
+    "title": "PhD",
+    "tagline": "Head of Bioimage Analysis Core, WEHI",
+    "subtitle": "Physicist turned bioimage analyst. Building tools and communities to understand life at microscopic scales.",
+    "image": "assets/images/lachie.jpg"
+  },
+  "about": {
+    "heading": "About",
+    "paragraphs": [
+      "I am the head of the Bioimage Analysis Core at WEHI's Centre for Dynamic Imaging—a team of analysts working at the intersection of physics, biology, and computational science. For over a decade, I've been driving the adoption of computational image analysis at WEHI, developing pipelines and methods that span everything from standard confocal to lattice light-sheet and super-resolution microscopy.",
+      "I rolled out the VM suite that now averages over 1000 researcher hours per month, migrating nearly all image processing at WEHI onto virtualized environments on our private cloud. I'm also pushing imaging workflows onto our HPC (Milton) to handle the scale and speed modern microscopy demands. Beyond software, I was instrumental in bringing lattice light-sheet microscopy to WEHI—traveling to Janelia Research Campus for the initial trial and later attending a hands-on workshop to learn how to build and maintain the system ourselves.",
+      "I'm a co-founder of AusBIAS (Australian Bioimage Analysts Society), where I coordinate monthly meetings, run the website and YouTube channel, and now serve as the AusBIAS representative to Light Microscopy Australia. I've presented at the inaugural GloBIAS meeting in Sweden about establishing bioimage analysis cores, and the first GloBIAS conference in Japan about AI-enabled transmitted light analysis (along with an AusBIAS update).",
+      "I have worked in the microscopy core for over a decade and providing training and hardware support on a full suite of optical microscopes. Before this, I studied physics, criminology, and political science; along with a breif stint in the coroproate sector as an IP professional.",
+      "I've been working with AI and machine learning since before it was trendy (back when we just called it 'deep learning'), and I co-convened a 2020 symposium on Deep Learning in Medical Biology that drew over 120 registrations.",
+      "I am proficient in 3D design and modeling for 3D printing, and scientific visualization. I have a strong interest in creative communication of science through visual media and have created animated visual abstracts for high-impact publications (see animation section)."
+    ]
+  },
+  "modules": {
+    "research": [
+      {
+        "id": "teaching",
+        "type": "text",
+        "enabled": true,
+        "heading": "Teaching & Community Leadership",
+        "content": [
+          "I've spent over a decade teaching image analysis—from FIJI automation to QuPath for whole-slide microscopy. Recently ran a QuPath workshop at WEHI that drew over 30 registrations from across the precinct and interstate. I've also taught at conferences for Light Microscopy Australia and given presentations ranging from digital image formation to 3D design and printing.",
+          "As co-founder of AusBIAS, I've helped transform Australia's bioimage analysis community from informal emails into an active society fully integrated with Light Microscopy Australia. I run monthly seminars, manage our Google group and website (ausbias.org), and administer our YouTube channel. In 2024, I was invited to the inaugural GloBIAS meeting in Sweden to present on establishing and running analysis cores. This year I'm presenting AI-enabled transmitted light analysis at the first GloBIAS conference in Kobe, Japan, and I'm chairing a session at APMC13 in Brisbane.",
+          "I've supervised multiple students: co-supervised honours students Cindy Evelyn and Sabrina Lewis (both now thriving at WEHI), and currently co-supervise a PhD student at Melbourne Dental School working on AI for oral cancer detection. I've also mentored several master's students on image analysis projects through the BAC."
+        ]
+      },
+      {
+        "id": "awards",
+        "type": "text",
+        "enabled": true,
+        "heading": "Awards & Recognition",
+        "content": [
+          "My work has been recognized through grants including the 2022 CZI napari Plugin Accelerator Grant and as a Chief Investigator on the 2024 NHMRC Ideas Grant investigating the molecular basis of Toxoplasma's interaction with the brain. In 2024, I was selected as the Australian Microscopy and Microanalysis Society delegate to the Annual Science Meets Parliament event.",
+          "I've received multiple Run Melbourne Travel Scholarships (2016, 2016), a 2025 WEHI Post Doc Association Travel Award, and the 2014 University of Melbourne 3D Printing Mini Research Grant. I'm a frequent finalist in WEHI's annual Art of Science awards, where I get to combine technical imaging with creative communication at events that bring together researchers, donors, and the public."
+        ]
+      },
+      {
+        "id": "technical-expertise",
+        "type": "text",
+        "enabled": true,
+        "heading": "Technical Expertise & Innovation",
+        "content": [
+          "I've been working with AI and machine learning since 2019—back when it was just 'deep learning.' I co-convened a 2020 symposium on 'Deep Learning in Medical Biology' that drew over 120 registrations, exploring AI applications in medical research contexts. All my analysis pipelines follow FAIR principles (Findable, Accessible, Interoperable, Reusable), and I publish code openly on GitHub.",
+          "I collaborated with DiUS (a local software dev company) and Amazon Web Services to develop cloud computing pipelines before we had Milton HPC, and was invited to present at the AWS Summit in Sydney. I've been approached by microscope developers to create animated visual abstracts for high-impact publications, leading to collaborations that resulted in invitations like visiting the CZ Biohub in San Francisco.",
+          "In 2024 alone, I contributed code to over 25 separate projects across WEHI and with external collaborators. The Bioimage Analysis Core's biggest project right now is the lattice light-sheet pipeline, which leverages our facility expertise with computational resources on our local HPC—opening up experiments that weren't computationally feasible before. We're hoping to publish this pipeline soon."
+        ]
+      },
+      {
+        "id": "presentations",
+        "type": "text",
+        "enabled": true,
+        "heading": "Invited Talks & Presentations",
+        "content": [
+          "I've been invited to speak at conferences around the world: GloBIAS (Gothenburg 2024, Kobe 2025), EMBL-Australia Beyond Imaging Workshop (2023), Australian Academy of Health and Medical Sciences Annual Meeting (2018), AWS Summit Australia (Sydney 2016), and multiple symposia and workshops.",
+          "I've chaired sessions at Light Microscopy Australia conferences (2017, 2019) and served on the scientific committee for LMA 2024. At APMC13 in Brisbane (2025), I'm chairing a conference session. I've also given accepted talks at venues ranging from the Bioimage Informatics Conference (Allen Institute, Seattle 2019; A*STAR, Singapore 2016) to the 2020 Australian Conference on Microscopy and Microanalysis.",
+          "Most recently, I was an invited panelist at Volume Imaging Australia's third symposium (2026) for the Problem Solvers Session, and I regularly present at internal WEHI division seminars—most recently 'Making the Most of Your Microscopy' in August 2024."
+        ]
+      },
+      {
+        "id": "publications",
+        "type": "publications",
+        "enabled": true,
+        "heading": "Selected Publications",
+        "description": "Over 40 publications in the last 5 years across Science, Cell, Nature journals, PNAS, and more. My work spans cell death mechanisms, malaria invasion, cancer biology, microscopy methods, and AI-enabled image analysis.",
+        "stats": {
+          "total": 91,
+          "citations": 7007,
+          "hIndex": 36,
+          "asOf": "July 2026"
+        },
+        "featured": [
+        {
+          "year": 2018,
+          "title": "BAK/BAX macropores facilitate mitochondrial herniation and mtDNA efflux during apoptosis",
+          "authors": "K McArthur, LW Whitehead, JM Heddleston, L Li, et al.",
+          "journal": "Science",
+          "url": "https://www.science.org/doi/abs/10.1126/science.aao6047"
+        },
+        {
+          "year": 2021,
+          "title": "4D analysis of malaria parasite invasion offers insights into erythrocyte membrane remodeling and parasitophorous vacuole formation",
+          "authors": "ND Geoghegan, C Evelyn, LW Whitehead, M Pasternak, et al.",
+          "journal": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-021-23626-7"
+        },
+        {
+          "year": 2022,
+          "title": "DaXi—high-resolution, large imaging volume and multi-view single-objective light-sheet microscopy",
+          "authors": "B Yang, M Lange, A Millet-Sikking, X Zhao, L Whitehead, et al.",
+          "journal": "Nature Methods",
+          "url": "https://www.nature.com/articles/s41592-022-01417-2"
+        },
+        {
+          "year": 2022,
+          "title": "Therapeutic inhibition of the SRC-kinase HCK facilitates T cell tumor infiltration and improves response to immunotherapy",
+          "authors": "AR Poh, CG Love, D Chisanga, JH Steer, LW Whitehead, et al.",
+          "journal": "Science Advances",
+          "url": ""
+        },
+        {
+          "year": 2020,
+          "title": "MLKL trafficking and accumulation at the plasma membrane control the kinetics and threshold for necroptosis",
+          "authors": "AL Samson, Y Zhang, ND Geoghegan, XJ Gavin, L Whitehead, et al.",
+          "journal": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-020-16887-1"
+        },
+        {
+          "year": 2018,
+          "title": "Embryogenesis and adult life in the absence of intrinsic apoptosis effectors BAX, BAK, and BOK",
+          "authors": "FFS Ke, HK Vanyai, AD Cowan, ARD Delbridge, L Whitehead, S Grabow, et al.",
+          "journal": "Cell",
+          "url": ""
+        },
+        {
+          "year": 2019,
+          "title": "Intraclonal plasticity in mammary tumors revealed through large-scale single-cell resolution 3D imaging",
+          "authors": "AC Rios, BD Capaldo, F Vaillant, B Pal, L Whitehead, et al.",
+          "journal": "Cancer Cell",
+          "url": ""
+        },
+        {
+          "year": 2023,
+          "title": "SARS-CoV-2 mouse adaptation selects virulence mutations that cause TNF-driven age-dependent severe disease with human correlates",
+          "authors": "Various authors including LW Whitehead",
+          "journal": "PNAS",
+          "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2301689120"
+        },
+        {
+          "year": 2025,
+          "title": "Convolutional neural networks for accurate real-time diagnosis of oral epithelial dysplasia and oral squamous cell carcinoma using high-resolution in vivo confocal microscopy",
+          "authors": "Various authors including LW Whitehead (co-supervisor)",
+          "journal": "Nature Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-025-86400-5"
+        },
+        {
+          "year": 2016,
+          "title": "RANK ligand as a potential target for breast cancer prevention in BRCA1-mutation carriers",
+          "authors": "Various authors including LW Whitehead",
+          "journal": "Nature Medicine",
+          "url": "https://www.nature.com/articles/nm.4118"
+        }
+      ],
+      "viewAllLink": "https://scholar.google.com/citations?user=YOUR_ID"
+    }
+    ],
+    "creative": [
+      {
+        "id": "animations",
+        "type": "gallery",
+        "enabled": true,
+        "heading": "Scientific Animations & Visual Abstracts",
+        "description": "I create animated visual abstracts for microscopy publications and techniques. These animations communicate complex biological processes and cutting-edge microscopy methods to wider audiences. Click on any preview to view the source publication or website.",
+        "layout": "grid",
+        "images": [
+          {
+            "src": "assets/images/animations/snouty_anim.png",
+            "alt": "Animation preview - The original snouty objective",
+            "caption": "Visual abstract for High NA single-objective light-sheet",
+            "linkText": "Link to publication",
+            "sourceUrl": "https://andrewgyork.github.io/high_na_single_objective_lightsheet/"
+          },
+          {
+            "src": "assets/images/animations/schmidt.png",
+            "alt": "Animation preview - Reflective multi-immersion microscope objectives inspired by the Schmidt telescope",
+            "caption": "Visual abstract for Reflective multi-immersion microscope objectives inspired by the Schmidt telescope",
+            "linkText": "View Full Animation ",
+            "sourceUrl": "https://www.nature.com/articles/s41587-023-01717-8#MOESM5"
+          },
+          {
+            "src": "assets/images/animations/daxi.png",
+            "alt": "Animation preview - DaXi—high-resolution, large imaging volume and multi-view single-objective light-sheet microscopy",
+            "caption": "Visual abstract for DaXi—high-resolution, large imaging volume and multi-view single-objective light-sheet microscopy",
+            "linkText": "View Full Animation - Suplimentary Video 8",
+            "sourceUrl": "https://www.nature.com/articles/s41592-022-01417-2#MOESM10"
+          },
+          {
+            "src": "assets/images/animations/permitivity.png",
+            "alt": "Animation preview - Permittivity tensor imaging: modular label-free imaging of 3D dry mass and 3D orientation at high resolution",
+            "caption": "Visual abstract for Permittivity tensor imaging: modular label-free imaging of 3D dry mass and 3D orientation at high resolution",
+            "linkText": "View Full Animation - Suplimentary Video 13",
+            "sourceUrl": "https://www.nature.com/articles/s41592-024-02291-w#MOESM15"
+          },
+          {
+            "src": "assets/images/animations/shear.png",
+            "alt": "Animation preview - Real-time multi-angle projection imaging of biological dynamics",
+            "caption": "Visual abstract for Real-time multi-angle projection imaging of biological dynamics",
+            "linkText": "View Full Animation - Suplimentary Video 1",
+            "sourceUrl": "https://www.nature.com/articles/s41592-021-01175-7#MOESM3"
+          },
+          {
+            "src": "assets/images/animations/tumbling.png",
+            "alt": "Animation preview - Tumbling is General",
+            "caption": "Visual abstract for Tumbling is General",
+            "linkText": "View Full Animation",
+            "sourceUrl": "https://andrewgyork.github.io/tumbling_is_general/"
+          },
+          {
+            "src": "assets/images/animations/smfbox.png",
+            "alt": "Animation preview - The smfBox is an open-source platform for single-molecule FRET",
+            "caption": "Visual abstract for The smfBox is an open-source platform for single-molecule FRET",
+            "linkText": "View Full Animation - Supplementary Movie 1",
+            "sourceUrl": "https://www.nature.com/articles/s41467-020-19468-4#MOESM6"
+          },
+          {
+            "src": "assets/images/animations/mn.png",
+            "alt": "Animation preview - Microscopists Nightmares",
+            "caption": "Microscopists Nightmares: A humorous take on common microscopy challenges",
+            "linkText": "View YouTube Channel",
+            "sourceUrl": "https://www.youtube.com/@MicroscopistsNightmares"
+          }           
+        ],
+        "note": "Click any preview to view the ource. These animations appear in Nature Methods, Nature Communications, and other high-impact journals."
+      },
+      {
+        "id": "gallery-photography",
+        "type": "gallery",
+        "enabled": true,
+        "heading": "Photography",
+        "description": "Sometimes I use bigger lenses.",
+        "layout": "masonry",
+        "images": [
+          {
+            "src": "assets/images/photography/lion.jpg",
+            "alt": "Lion",
+            "caption": "Lion"
+          },
+          {
+            "src": "assets/images/photography/wineglass.jpg",
+            "alt": "Wine Glass",
+            "caption": "Wine Glass"
+          },
+          {
+            "src": "assets/images/photography/golden_pavilion.jpg",
+            "alt": "Kinkaku-ji (Golden Pavilion), Kyoto, Japan",
+            "caption": "Kinkaku-ji (Golden Pavilion), Kyoto, Japan"
+          },
+          {
+            "src": "assets/images/photography/747.jpg",
+            "alt": "747 Landing at Melbourne Airport",
+            "caption": "747 Landing at Melbourne Airport"
+          }
+        ]
+      },
+      {
+        "id": "gallery-3d",
+        "type": "gallery",
+        "enabled": false,
+        "heading": "3D Work & Visualization",
+        "description": "Modeling, rendering, and scientific visualization projects. From accurate cellular reconstructions to explanatory 3D models.",
+        "layout": "grid",
+        "images": [
+          {
+            "src": "assets/images/render1.jpg",
+            "alt": "Description",
+            "caption": "Optional caption",
+            "modelUrl": "assets/models/model1.glb"
+          }
+        ]
+      },
+      {
+        "id": "art-of-science",
+        "type": "gallery",
+        "enabled": false,
+        "heading": "Art of Science",
+        "description": "Selected entries from WEHI's annual Art of Science awards, where microscopy meets visual art.",
+        "layout": "masonry",
+        "images": [
+          {
+            "src": "assets/images/art-of-science/aos1.jpg",
+            "alt": "Art of Science entry",
+            "caption": "Finalist 20XX - Description"
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "email": "",
+    "links": [
+      {
+        "type": "scholar",
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=YOUR_ID"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/drlachie"
+      },
+      {
+        "type": "ausbias",
+        "label": "AusBIAS Website",
+        "url": "https://ausbias.org"
+      },
+      {
+        "type": "linkedin",
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/yourprofile"
+      }
+    ]
+  }
+}

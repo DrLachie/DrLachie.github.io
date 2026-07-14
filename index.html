@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lachlan Whitehead - Bioimage Analyst, Physicist, Creative. Head of Bioimage Analysis Core at WEHI.">
+    <meta name="author" content="Lachlan Whitehead">
+    <title>Lachlan Whitehead</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modules.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">LW</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="creative.html" class="nav-link">Creative</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name" id="heroName">Lachlan Whitehead</h1>
+                <p class="hero-title" id="heroTitle">PhD</p>
+                <p class="hero-tagline" id="heroTagline">Head of Bioimage Analysis Core, WEHI</p>
+                <p class="hero-subtitle" id="heroSubtitle">Physicist turned bioimage analyst. Building tools and communities to understand life at microscopic scales.</p>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-placeholder" id="heroImage">
+                    <!-- Profile image loaded via JS -->
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M10 4L10 16M10 16L16 10M10 16L4 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <h2 class="section-heading">About</h2>
+            <div class="about-content" id="aboutContent">
+                <!-- Loaded via JS -->
+            </div>
+            <div class="about-cta">
+                <a href="research.html" class="cta-button cta-primary">View Research & Publications</a>
+                <a href="creative.html" class="cta-button cta-secondary">Explore Creative Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-heading" id="contactHeading">Get in Touch</h2>
+            <div class="contact-content">
+                <p class="contact-email">
+                    <a href="" id="contactEmail"></a>
+                </p>
+                <div class="contact-links" id="contactLinks">
+                    <!-- Links loaded via JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="research.html">Research</a>
+                <a href="creative.html">Creative</a>
+            </div>
+            <p>&copy; <span id="currentYear"></span> Lachlan Whitehead. All rights reserved.</p>
+            <p class="footer-note">Built with curiosity and code.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

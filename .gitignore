@@ -1,0 +1,20 @@
+# Private information - DO NOT COMMIT
+secret_source_info/
+*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
