@@ -328,7 +328,7 @@
       {
         "type": "scholar",
         "label": "Google Scholar",
-        "url": "https://scholar.google.com/citations?user=YOUR_ID"
+        "url": "https://scholar.google.com/citations?user=x_he-iIAAAAJ"
       },
       {
         "type": "github",
@@ -344,6 +344,11 @@
         "type": "linkedin",
         "label": "LinkedIn",
         "url": "https://linkedin.com/in/yourprofile"
+      },
+      {
+        "type": "bsky",
+        "label": "Bluesky",
+        "url": "https://bsky.app/profile/drlachie.bsky.social"
       }
     ]
   }
