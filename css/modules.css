@@ -411,14 +411,36 @@
 }
 
 .text-content p {
-    font-size: 1.125rem;
-    line-height: 1.8;
+    font-size: 1rem;
+    line-height: 1.7;
     color: var(--color-text-light);
-    margin-bottom: var(--spacing-md);
+    margin-bottom: 1.0rem;
+    padding-left: 1rem;
+    border-left: 3px solid;
+    border-image: linear-gradient(to bottom, var(--color-primary), var(--color-accent)) 1;
+}
+
+.text-content p:first-of-type {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--color-text);
+    border-image: linear-gradient(to bottom, var(--color-accent), var(--color-primary)) 1;
 }
 
 .text-content p:last-child {
     margin-bottom: 0;
+}
+
+/* Two-column layout for wider screens */
+@media (min-width: 900px) {
+    .text-content {
+        column-count: 2;
+        column-gap: 3rem;
+        max-width: 1000px;
+    }
+    .text-content p {
+        break-inside: avoid;
+    }
 }
 
 .text-content strong {

@@ -16,7 +16,7 @@
       "I am a bioimage analyst and physicist with a passion for microscopy, computational image analysis, and creative communication of science. I have a strong interest in the intersection of physics, biology, and computation, and I enjoy developing tools and methods that enable researchers to extract meaningful insights from complex biological images.",
       "I am currently the head of the Bioimage Analysis Core (BAC) at WEHI's Centre for Dynamic Imaging—a team of analysts collaborating widely across the institute to support researchers in extracting quantitative insights from microscopy data. I lead the development of analysis pipelines, provide training and support, and work closely with researchers to design experiments that leverage advanced imaging techniques. My work spans a range of microscopy modalities, including confocal, light-sheet, and super-resolution imaging.",
       "I'm a co-founder of AusBIAS (Australian Bioimage Analysts Society), where I coordinate monthly meetings, run the website and YouTube channel, and now serve as the AusBIAS representative to Light Microscopy Australia. I've presented at the inaugural GloBIAS meeting in Sweden about establishing bioimage analysis cores, and the first GloBIAS conference in Japan about AI-enabled transmitted light analysis (along with an AusBIAS update).",
-      "I have worked in the microscopy core for over a decade and providing training and hardware support on a full suite of optical microscopes. Before this, I studied physics, criminology, and political science; along with a breif stint in the coroproate sector as an IP professional.",
+      "I have worked in the microscopy core for over a decade and providing training and hardware support on a full suite of optical microscopes. Before this, I studied physics, criminology, and political science; along with a brief stint in the corporate sector as an IP professional.",
       "I am proficient in 3D design and modeling for 3D printing, and scientific visualization. I have a strong interest in creative communication of science through visual media and have created animated visual abstracts for high-impact publications (see animation section)."
     ]
   },
@@ -28,9 +28,11 @@
         "enabled": true,
         "heading": "Technical Expertise & Innovation",
         "content": [
+          "I have been a bioimage analyst for over a decade, with expertise in microscopy, image analysis, and computational methods. I am proficient in a range of software tools and programming languages  including FIJI/ImageJ, Python, QuPath, Imaris, and napari.",
+          "I have developed and implemented analysis pipelines for a wide range of imaging modalities, including confocal, light-sheet, and super-resolution microscopy. My work has focused on enabling researchers to extract quantitative insights from complex biological images, often involving large datasets and high-dimensional data.",
           "I've worked with AI and machine learning since 2019, including co-convening the 2020 symposium 'Deep Learning in Medical Biology,' which drew over 120 registrations exploring AI applications in medical research. All analysis pipelines I develop follow FAIR principles (Findable, Accessible, Interoperable, Reusable), with code published openly on GitHub.",
-          "I collaborated with DiUS Computing and Amazon Web Services to develop cloud-based image analysis pipelines prior to WEHI's HPC infrastructure coming online, and was invited to present this work at the AWS Summit in Sydney. This work creating animated visual abstracts for microscopy publications has led to ongoing collaborations with instrument developers, including an invitation to visit the CZ Biohub in San Francisco.",
-          "In 2024, I contributed code to more than 25 projects across WEHI and with external collaborators. The Bioimage Analysis Core's primary ongoing initiative is the lattice light-sheet pipeline, which integrates facility imaging expertise with HPC resources to enable analyses that were previously computationally intractable. A publication describing this pipeline is in preparation."
+          "I have a partilcular interest in high-performance and cloud computing; having collaborated with DiUS and Amazon Web Services to develop cloud-based image analysis pipelines prior to WEHI's HPC infrastructure coming online, and was invited to present this work at the AWS Summit in Sydney. I now routinely move analysis pipelines to HPC and cloud environments, enabling analyses that were previously computationally intractable.",
+          "My work creating animated visual abstracts for microscopy publications has led to ongoing collaborations with instrument developers, including an invitation to visit the CZ Biohub in San Francisco, and has been published in Nature Methods, Nature Communications, and other high-impact journals. I have also created animations for microscopy companies to communicate their products and services to a wider audience."
         ]
       },
       {
@@ -39,7 +41,7 @@
         "enabled": true,
         "heading": "Teaching & Community Leadership",
         "content": [
-          "I've spent over a decade teaching image analysis—from FIJI automation to QuPath for whole-slide imaging. A recent QuPath workshop at WEHI drew over 30 registrations from researchers across the Parkville Precinct and interstate. I've also taught at Light Microscopy Australia conferences and given presentations on topics ranging from digital image formation to 3D design and printing.",
+          "I've spent over a decade teaching image analysis—from the basics of digital image formation and image analysis, to advanced FIJI scripting and AI-enabled analysis pipelines. I have taught workshops at WEHI, the University of Melbourne, and Light Microscopy Australia conferences, and am also developing online resources for the broader bioimage analysis community.",
           "As a co-founder of AusBIAS (Australian Bioimage Analysts Society), I helped build Australia's bioimage analysis community from an informal email network into an active society fully integrated with Light Microscopy Australia. I coordinate monthly seminars, manage the Google Group and website (ausbias.org), and administer the YouTube channel. In 2024, I was invited to the inaugural GloBIAS meeting in Gothenburg to present on establishing and sustaining analysis cores. In 2025, I presented an AI-enabled transmitted light analysis pipeline at the first GloBIAS conference in Kobe, Japan, and chaired the image analysis session at APMC13 in Brisbane.",
           "I've co-supervised honours students Cindy Evelyn and Sabrina Lewis, both of whom continue to work at WEHI, and co-supervised a PhD student at Melbourne Dental School focused on AI for oral cancer detection. I've also mentored several master's students on image analysis projects through the Bioimage Analysis Core."
         ]
@@ -51,7 +53,7 @@
         "heading": "Awards & Recognition",
         "content": [
           "Funding highlights include the 2022 CZI napari Plugin Accelerator Grant and a Chief Investigator role on the 2024 NHMRC Ideas Grant investigating the molecular basis of Toxoplasma's interaction with the brain. In 2024, I was selected as the Australian Microscopy and Microanalysis Society delegate to the Annual Science Meets Parliament event in Canberra.",
-          "Other recognition includes multiple Run Melbourne Travel Scholarships, a 2025 WEHI Postdoctoral Association Travel Award, and the 2014 University of Melbourne 3D Printing Mini Research Grant. I am a regular finalist in WEHI's annual Art of Science awards, which celebrate the intersection of scientific imaging and creative communication at events bringing together researchers, donors, and the public."
+          "Other recognition includes multiple Run Melbourne Travel Scholarships and a 2025 WEHI Postdoctoral Association Travel Award. I am a regular finalist in WEHI's annual Art of Science awards, which celebrate the intersection of scientific imaging and creative communication at events bringing together researchers, donors, and the public."
         ]
       },
 
@@ -105,7 +107,7 @@
           "title": "Therapeutic inhibition of the SRC-kinase HCK facilitates T cell tumor infiltration and improves response to immunotherapy",
           "authors": "AR Poh, CG Love, D Chisanga, JH Steer, LW Whitehead, et al.",
           "journal": "Science Advances",
-          "url": ""
+          "url": "https://www.science.org/doi/10.1126/sciadv.abm8243"
         },
         {
           "year": 2020,
@@ -119,14 +121,14 @@
           "title": "Embryogenesis and adult life in the absence of intrinsic apoptosis effectors BAX, BAK, and BOK",
           "authors": "FFS Ke, HK Vanyai, AD Cowan, ARD Delbridge, L Whitehead, S Grabow, et al.",
           "journal": "Cell",
-          "url": ""
+          "url": "https://www.cell.com/cell/fulltext/S0092-8674(18)31270-4"
         },
         {
           "year": 2019,
           "title": "Intraclonal plasticity in mammary tumors revealed through large-scale single-cell resolution 3D imaging",
           "authors": "AC Rios, BD Capaldo, F Vaillant, B Pal, L Whitehead, et al.",
           "journal": "Cancer Cell",
-          "url": ""
+          "url": "https://www.cell.com/cancer-cell/fulltext/S1535-6108(18)30549-1"
         },
         {
           "year": 2023,
@@ -285,6 +287,16 @@
             "src": "assets/images/photography/no_entry.jpg",
             "alt": "No Entry",
             "caption": "No Entry"
+          },
+          {
+            "src": "assets/images/photography/triceratops.jpg",
+            "alt": "Triceratops at Melbourne Museum",
+            "caption": "Triceratops at Melbourne Museum"
+          },
+          {
+            "src": "assets/images/photography/plane_spotting.jpg",
+            "alt": "Landing at Melbourne Airport",
+            "caption": "Landing at Melbourne Airport"
           }
         ]
       },
