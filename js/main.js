@@ -44,9 +44,11 @@ async function loadContent() {
         siteData = await response.json();
 
         populateHero();
+        populateFeatured();
         populateAbout();
         populateModules();
         populateContact();
+        populateNow();
     } catch (error) {
         console.error('Error loading content:', error);
         showError('Failed to load content. Please refresh the page.');
@@ -77,6 +79,44 @@ function populateHero() {
         img.alt = name;
         heroImageContainer.innerHTML = '';
         heroImageContainer.appendChild(img);
+    }
+}
+
+// ====================
+// Featured Projects Section
+// ====================
+function populateFeatured() {
+    if (!siteData?.featured) return;
+
+    const featuredHeading = document.getElementById('featuredHeading');
+    const featuredDescription = document.getElementById('featuredDescription');
+    const featuredGrid = document.getElementById('featuredGrid');
+
+    if (!featuredGrid) return; // Not on home page
+
+    const { heading, description, projects } = siteData.featured;
+
+    if (heading && featuredHeading) {
+        featuredHeading.textContent = heading;
+    }
+
+    if (description && featuredDescription) {
+        featuredDescription.textContent = description;
+    }
+
+    if (projects && projects.length > 0) {
+        featuredGrid.innerHTML = projects
+            .map(project => `
+                <div class="featured-card">
+                    <div class="featured-icon">${project.icon}</div>
+                    <h3 class="featured-title">${project.title}</h3>
+                    <p class="featured-description">${project.description}</p>
+                    <div class="featured-tech">
+                        ${project.tech.map(t => `<span class="tech-tag">${t}</span>`).join('')}
+                    </div>
+                </div>
+            `)
+            .join('');
     }
 }
 
@@ -409,6 +449,56 @@ function populateContact() {
             `)
             .join('');
     }
+}
+
+// ====================
+// Now Page
+// ====================
+function populateNow() {
+    if (!siteData?.now) return;
+
+    const nowContent = document.getElementById('nowContent');
+    if (!nowContent) return; // Not on now page
+
+    const { lastUpdated, currently, recently, personal } = siteData.now;
+
+    const currentlyHTML = currently ? `
+        <div class="now-section">
+            <h2 class="now-heading">${currently.heading}</h2>
+            <ul class="now-list">
+                ${currently.items.map(item => `<li>${item}</li>`).join('')}
+            </ul>
+        </div>
+    ` : '';
+
+    const recentlyHTML = recently ? `
+        <div class="now-section">
+            <h2 class="now-heading">${recently.heading}</h2>
+            <ul class="now-list">
+                ${recently.items.map(item => `<li>${item}</li>`).join('')}
+            </ul>
+        </div>
+    ` : '';
+
+    const personalHTML = personal ? `
+        <div class="now-section now-personal">
+            <h2 class="now-heading">${personal.heading}</h2>
+            <p class="now-text">${personal.text}</p>
+        </div>
+    ` : '';
+
+    const updatedHTML = lastUpdated ? `
+        <div class="now-updated">
+            <em>Last updated: ${lastUpdated}</em>
+        </div>
+    ` : '';
+
+    nowContent.innerHTML = `
+        ${currentlyHTML}
+        ${recentlyHTML}
+        ${personalHTML}
+        ${updatedHTML}
+    `;
 }
 
 // ====================

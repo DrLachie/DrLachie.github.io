@@ -4,10 +4,10 @@
     "description": "Bioimage Analyst, Physicist, Creative"
   },
   "hero": {
-    "name": "Lachlan Whitehead",
-    "title": "PhD",
+    "name": "Dr Lachlan Whitehead",
+    "title": "BioImage Analyst | Scientific Software Developer | Open Science Advocate",
     "tagline": "Head of Bioimage Analysis Core, WEHI",
-    "subtitle": "Physicist turned bioimage analyst. Building tools and communities to understand life at microscopic scales.",
+    "subtitle": "I build computational tools that help scientists understand biological images - from terabyte-scale light-sheet microscopy to AI-enabled spatial biology workflows.",
     "image": "assets/images/lachie.jpg"
   },
   "about": {
@@ -18,6 +18,48 @@
       "I'm a co-founder of AusBIAS (Australian Bioimage Analysts Society), where I coordinate monthly meetings, run the website and YouTube channel, and now serve as the AusBIAS representative to Light Microscopy Australia. I've presented at the inaugural GloBIAS meeting in Sweden about establishing bioimage analysis cores, and the first GloBIAS conference in Japan about AI-enabled transmitted light analysis (along with an AusBIAS update).",
       "I have worked in the microscopy core for over a decade and providing training and hardware support on a full suite of optical microscopes. Before this, I studied physics, criminology, and political science; along with a brief stint in the corporate sector as an IP professional.",
       "I am proficient in 3D design and modeling for 3D printing, and scientific visualization. I have a strong interest in creative communication of science through visual media and have created animated visual abstracts for high-impact publications (see animation section)."
+    ]
+  },
+  "featured": {
+    "heading": "Featured Projects",
+    "description": "Core areas where I build solutions for biological imaging challenges",
+    "projects": [
+      {
+        "icon": "🔬",
+        "title": "Light Sheet Imaging",
+        "description": "Scalable analysis pipelines for terabyte-scale microscopy datasets",
+        "tech": ["Python", "Dask", "OME-Zarr", "HPC"]
+      },
+      {
+        "icon": "🧬",
+        "title": "Spatial Biology",
+        "description": "Quantifying complex tissue organisation using multiplex imaging",
+        "tech": ["Xenium", "MERSCOPE", "Segmentation", "QuPath", "Nextflow"]
+      },
+      {
+        "icon": "🤖",
+        "title": "AI Image Analysis",
+        "description": "Applying machine learning to biological image understanding",
+        "tech": ["YOLO", "Cellpose", "Deep Learning"]
+      },
+      {
+        "icon": "🛠",
+        "title": "Open Source Tools",
+        "description": "Building software that makes image analysis more accessible",
+        "tech": ["Python", "Fiji", "napari", "QuPath"]
+      },
+      {
+        "icon": "🌐",
+        "title": "Building Communities",
+        "description": "Growing AusBIAS and the global bioimage analysis community",
+        "tech": ["AusBIAS", "GloBIAS", "Bioimage Analysts"]
+      },
+      {
+        "icon": "🎨",
+        "title": "Scientific Visualization",
+        "description": "Communicating complex biological processes through visual media",
+        "tech": ["3D Modeling", "Animation", "Blender3D"]
+      }
     ]
   },
   "modules": {
@@ -332,6 +374,33 @@
         ]
       }
     ]
+  },
+  "now": {
+    "lastUpdated": "July 2026",
+    "currently": {
+      "heading": "Currently",
+      "items": [
+        "Developing analysis pipelines for large-scale light-sheet microscopy datasets using HPC and cloud infrastructure",
+        "Working on spatial imaging projects integrating Xenium and MERSCOPE technologies",
+        "Analysing microCT datasets using cutting-edge AI and machine learning techniques",
+        "Contributing to AusBIAS and the global bioimage analysis community",
+        "Collaborating on a pipeline for AI-enabled transmitted light microscopy analysis"
+      ]
+    },
+    "recently": {
+      "heading": "Recently Completed",
+      "items": [
+        "Presented at GloBIAS 2025 in Kobe, Japan on AI-enabled transmitted light analysis",
+        "Chaired image analysis session at APMC13 in Brisbane",
+        "Took part in the third Volume Imaging Australia symposium's Problem Solvers Session",
+        "Automated QuPath workflows for spatial biology quantification",
+        "Submitted manuscript on our lattice light-sheet microscopy data processing tool to Journal of Microscopy"
+      ]
+    },
+    "personal": {
+      "heading": "Outside the Lab",
+      "text": "When I'm not analysing microscopy data, you'll usually find me exploring Melbourne's food scene, hunting for excellent coffee, or enjoying a glass of red wine."
+    }
   },
   "contact": {
     "heading": "Get in Touch",
