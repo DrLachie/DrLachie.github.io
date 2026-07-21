@@ -24,19 +24,7 @@
     "heading": "Featured Projects",
     "description": "Core areas where I build solutions for biological imaging challenges",
     "projects": [
-      {
-        "icon": "🔬",
-        "title": "Light Sheet Imaging",
-        "description": "Scalable analysis pipelines for terabyte-scale microscopy datasets",
-        "tech": ["Python", "Dask", "OME-Zarr", "HPC"]
-      },
-      {
-        "icon": "🧬",
-        "title": "Spatial Biology",
-        "description": "Quantifying complex tissue organisation using multiplex imaging",
-        "tech": ["Xenium", "MERSCOPE", "Segmentation", "QuPath", "Nextflow"]
-      },
-      {
+       {
         "icon": "🤖",
         "title": "AI Image Analysis",
         "description": "Applying machine learning to biological image understanding",
@@ -49,6 +37,12 @@
         "tech": ["Python", "Fiji", "napari", "QuPath"]
       },
       {
+        "icon": "🔬",
+        "title": "Light Sheet Imaging",
+        "description": "Scalable analysis pipelines for terabyte-scale microscopy datasets",
+        "tech": ["Python", "Dask", "OME-Zarr", "HPC", "Lattice Light Sheet"]
+      },
+      {
         "icon": "🌐",
         "title": "Building Communities",
         "description": "Growing AusBIAS and the global bioimage analysis community",
@@ -59,6 +53,18 @@
         "title": "Scientific Visualization",
         "description": "Communicating complex biological processes through visual media",
         "tech": ["3D Modeling", "Animation", "Blender3D"]
+      },
+            {
+        "icon": "🧬",
+        "title": "Spatial Biology",
+        "description": "Quantifying complex tissue organisation using multiplex imaging",
+        "tech": ["Xenium", "MERSCOPE", "Segmentation", "QuPath", "Nextflow"]
+      },
+      {
+        "icon": "☁️",
+        "title": "Cloud & HPC Computing",
+        "description": "Enabling analyses that were previously computationally intractable",
+        "tech": ["AWS", "HPC", "Dask", "Nextflow"]
       }
     ]
   },
