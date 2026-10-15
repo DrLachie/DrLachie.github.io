@@ -1,0 +1,142 @@
+{
+  "site": {
+    "title": "Lachlan Whitehead",
+    "description": "Team leader, data and AI specialist, communicator"
+  },
+  "hero": {
+    "name": "Dr Lachlan Whitehead",
+    "title": "Team Leader | Data & AI Specialist | Communicator",
+    "tagline": "Building teams, tools and communities that turn complex data into decisions",
+    "subtitle": "I founded and lead a specialist data analysis team, grew a national professional network from scratch, and have spent over a decade translating complex technical problems into clear outcomes for the people who rely on them.",
+    "image": "assets/images/lachie.jpg"
+  },
+  "about": {
+    "heading": "About",
+    "paragraphs": [
+      "I'm a leader and problem-solver with a background in physics, a decade of experience running technical services, and a track record of building things from nothing: a team, a professional society, a data platform, a training program.",
+      "I currently lead the Bioimage Analysis Core at WEHI, one of Australia's leading medical research institutes. I established the team and set its direction, from the service model and priorities to how we work with clients across the institute. In practice that means running a portfolio of concurrent projects for many different stakeholders, scoping work with non-specialists, managing people and capacity, and delivering results that end up in Science, Cell and Nature journals.",
+      "My work sits where data, technology and people meet. I build automated data pipelines and AI workflows, move workloads onto high-performance and cloud computing, and then make sure the people who need them can actually use them, through training, documentation and clear communication.",
+      "Science is my domain, not my limit. Before research I studied physics, criminology and political science, and worked in the corporate sector as an intellectual property professional. I'm comfortable in commercial settings and I'm looking for roles where leadership, technical depth and communication count."
+    ]
+  },
+  "featured": {
+    "heading": "What I Bring",
+    "description": "Transferable skills, proven in a demanding research environment",
+    "projects": [
+      {
+        "icon": "🧭",
+        "title": "Leadership & Team Building",
+        "description": "Founded and lead a specialist analysis team: hiring, mentoring, setting priorities and growing capability",
+        "tech": ["People Leadership", "Mentoring", "Capacity Planning"]
+      },
+      {
+        "icon": "📈",
+        "title": "Strategy & Service Growth",
+        "description": "Designed a service model from scratch and grew it into a core institutional capability",
+        "tech": ["Service Design", "Growth Planning", "Operations"]
+      },
+      {
+        "icon": "🤝",
+        "title": "Stakeholder Management",
+        "description": "Delivered for dozens of client teams at once, translating needs into scoped, deliverable work",
+        "tech": ["Client Engagement", "Scoping", "Partnerships"]
+      },
+      {
+        "icon": "🤖",
+        "title": "Data, AI & Automation",
+        "description": "Building automated pipelines and machine learning workflows that scale to terabytes",
+        "tech": ["Python", "Machine Learning", "Cloud & HPC", "Dashboards"]
+      },
+      {
+        "icon": "🎤",
+        "title": "Communication & Training",
+        "description": "A decade teaching technical skills, and invited speaker at international conferences",
+        "tech": ["Workshops", "Public Speaking", "Visual Storytelling"]
+      },
+      {
+        "icon": "🌐",
+        "title": "Community & Networks",
+        "description": "Co-founded a national professional society and represent it to peak industry bodies",
+        "tech": ["Community Building", "Events", "Governance"]
+      }
+    ]
+  },
+  "modules": {
+    "research": [
+      {
+        "id": "building-a-team",
+        "type": "text",
+        "enabled": true,
+        "heading": "Building and Leading a Team",
+        "content": [
+          "I established the Bioimage Analysis Core at WEHI's Centre for Dynamic Imaging, taking it from an idea to a dedicated team of analysts that works with research groups across the whole institute. I defined what the team offers and how it engages with clients, set its priorities, and continue to plan its growth.",
+          "Day to day I balance a portfolio of concurrent projects across many internal clients, each with its own deadlines, expectations and level of technical literacy. I scope requests, allocate effort, manage the team's capacity and make sure work lands. The output speaks for itself: more than 40 co-authored publications in the last five years, each one a delivered project for a different client team.",
+          "I'm also building a management dashboard for the imaging core facility, turning operational data into something leadership can use to make decisions about usage, resourcing and investment."
+        ]
+      },
+      {
+        "id": "building-a-community",
+        "type": "text",
+        "enabled": true,
+        "heading": "Building a National Community",
+        "content": [
+          "As co-founder of AusBIAS (Australian Bioimage Analysts Society), I helped turn an informal email list into a recognised national society, now fully integrated with the peak body Light Microscopy Australia, where I serve as the AusBIAS representative.",
+          "I run its monthly seminar program, website, mailing list and YouTube channel. Internationally I was invited to the inaugural GloBIAS meeting in Sweden to speak specifically on how to establish and sustain analysis teams, and I now facilitate the global society's Asia-Pacific virtual meetups."
+        ]
+      },
+      {
+        "id": "technology-delivery",
+        "type": "text",
+        "enabled": true,
+        "heading": "Technology & Delivery",
+        "content": [
+          "I design and deliver data pipelines that turn raw, high-volume data (often terabytes per project) into quantitative, decision-ready results. I've worked with AI and machine learning since 2019 and co-convened a 2020 symposium on deep learning in medical research that drew over 120 registrations.",
+          "Before WEHI had its own high-performance computing infrastructure, I partnered with DiUS and Amazon Web Services to build cloud-based processing pipelines, and was invited to present that work at the AWS Summit in Sydney. I now routinely move workloads onto HPC and cloud platforms, making previously impossible analyses routine.",
+          "My code is published openly, built to be reused by others, and follows FAIR data principles. I work in Python, with tools such as Dask, napari, Fiji and QuPath, and with workflow managers such as Nextflow."
+        ]
+      },
+      {
+        "id": "communication",
+        "type": "text",
+        "enabled": true,
+        "heading": "Communication & Influence",
+        "content": [
+          "I've spent more than ten years teaching technical skills to non-specialists, through workshops at WEHI, the University of Melbourne and national conferences. I've co-supervised a PhD student, honours students and master's students.",
+          "I'm a regular invited speaker and session chair at international conferences in Sweden, Japan, Germany, the USA and Singapore, and have served on a national conference's scientific committee. In 2024 I was selected as the Australian Microscopy and Microanalysis Society's delegate to Science Meets Parliament in Canberra.",
+          "I also produce animations and visual explainers that make complex technology understandable. They have been published alongside papers in Nature Methods and Nature Communications and used commercially by instrument companies to market their products."
+        ]
+      },
+      {
+        "id": "funding-recognition",
+        "type": "text",
+        "enabled": true,
+        "heading": "Funding & Recognition",
+        "content": [
+          "I've won competitive funding, including a Chan Zuckerberg Initiative grant (2022) and a Chief Investigator role on a 2024 NHMRC Ideas Grant. My collaborative work has been cited more than 7,000 times across 90+ publications.",
+          "Other recognition includes travel awards, multiple Run Melbourne Travel Scholarships, and regular finalist placings in WEHI's Art of Science awards, a public-facing event that brings together researchers, donors and the community."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's Talk",
+    "email": "",
+    "links": [
+      {
+        "type": "linkedin",
+        "label": "LinkedIn",
+        "url": "https://linkedin.com/in/drlachie"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "url": "https://github.com/drlachie"
+      },
+      {
+        "type": "research",
+        "label": "Scientific Portfolio",
+        "url": "index.html"
+      }
+    ]
+  }
+}

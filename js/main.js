@@ -38,7 +38,9 @@ function detectActivePage() {
 // ====================
 async function loadContent() {
     try {
-        const response = await fetch('data/content.json');
+        // Pages can point at an alternate content file via <body data-content="...">
+        const contentPath = document.body.dataset.content || 'data/content.json';
+        const response = await fetch(contentPath);
         if (!response.ok) throw new Error('Failed to load content');
 
         siteData = await response.json();

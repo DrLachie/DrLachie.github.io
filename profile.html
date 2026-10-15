@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lachlan Whitehead - Team leader, data and AI specialist, communicator. Founder and head of the Bioimage Analysis Core at WEHI.">
+    <meta name="author" content="Lachlan Whitehead">
+    <title>Lachlan Whitehead - Profile</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modules.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body data-content="data/profile.json">
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="profile.html" class="nav-logo">LW</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="profile.html" class="nav-link active">Profile</a></li>
+                <li><a href="#featured" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="index.html" class="nav-link">Scientific Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name" id="heroName">Lachlan Whitehead</h1>
+                <p class="hero-title" id="heroTitle"></p>
+                <p class="hero-tagline" id="heroTagline"></p>
+                <p class="hero-subtitle" id="heroSubtitle"></p>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-placeholder" id="heroImage">
+                    <!-- Profile image loaded via JS -->
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to explore</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M10 4L10 16M10 16L16 10M10 16L4 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section class="section featured-section" id="featured">
+        <div class="container">
+            <h2 class="section-heading" id="featuredHeading">What I Bring</h2>
+            <p class="section-description" id="featuredDescription"></p>
+            <div class="featured-grid" id="featuredGrid">
+                <!-- Loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <h2 class="section-heading">About</h2>
+            <div class="about-content" id="aboutContent">
+                <!-- Loaded via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Modules -->
+    <section class="section modules-section section-research" id="experience">
+        <div class="container">
+            <h2 class="section-heading">Experience</h2>
+            <div id="researchModulesContainer">
+                <!-- Experience modules loaded via JS from data/profile.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-heading" id="contactHeading">Let's Talk</h2>
+            <div class="contact-content">
+                <p class="contact-email">
+                    <a href="" id="contactEmail"></a>
+                </p>
+                <div class="contact-links" id="contactLinks">
+                    <!-- Links loaded via JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-connect">
+                <a href="https://linkedin.com/in/drlachie" target="_blank" rel="noopener noreferrer" title="LinkedIn">LinkedIn</a>
+                <a href="https://github.com/drlachie" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub</a>
+                <a href="https://bsky.app/profile/drlachie.bsky.social" target="_blank" rel="noopener noreferrer" title="Bluesky">Bluesky</a>
+            </div>
+            <div class="footer-nav">
+                <a href="profile.html">Profile</a>
+                <a href="index.html">Scientific Portfolio</a>
+            </div>
+            <p>&copy; <span id="currentYear"></span> Lachlan Whitehead. All rights reserved.</p>
+            <p class="footer-note">Turning complex data into clear decisions.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
